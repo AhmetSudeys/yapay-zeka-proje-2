@@ -66,7 +66,7 @@ Bu projede ACO ile hedef, toplam yol mesafesini minimize eden rotayı bulmaktır
 
 ## 4. Kullanılan Noktalar (Toplanma Alanları)
 
-Projede Isparta il merkezinden seçilen 10 adet toplanma alanı kullanılmıştır.
+Projede Isparta il merkezinden seçilen 10 adet toplanma alanı kullanılmıştır ve koordinatlar e-devlet üzerinden alınmıştır.
 
 - Noktalar gerçek koordinatlar (enlem, boylam) ile temsil edilmiştir.
 - Uygulama içinde her nokta hem indeks hem isim ile gösterilir.
