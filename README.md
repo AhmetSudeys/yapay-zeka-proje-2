@@ -104,14 +104,12 @@ Repo yapısı:
 - **`README.md`**  
   Projenin genel tanımını, senaryoyu, kullanılan algoritmayı, klasör yapısını ve çalıştırma adımlarını içeren açıklama dosyasıdır.
 
----
 
 ### `data/` Klasörü
 
 - **`coordinates.py`**  
   Isparta merkezdeki afet ve acil durum toplanma alanlarının koordinatlarını ve isimlerini içerir. Veri katmanı ayrı tutulduğu için yeni noktalar eklemek veya mevcutları güncellemek kolaydır.
 
----
 
 ### `core/` Klasörü
 
@@ -121,7 +119,6 @@ Repo yapısı:
 - **`aco_algorithm.py`**  
   Karınca Kolonisi Algoritmasının çekirdek implementasyonunu içerir. Karıncaların rota oluşturması, olasılık hesapları, feromon güncellemeleri ve yakınsama süreci bu dosyada gerçekleştirilir.
 
----
 
 ### `visual/` Klasörü
 
