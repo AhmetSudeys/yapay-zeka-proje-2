@@ -80,20 +80,32 @@ Proje, okunabilirliği artırmak ve her bileşeni ayrı sorumluluk alanına taş
 
 Repo yapısı:
 ├── main.py
+
 ├── config.py
+
 ├── requirements.txt
+
 ├── Odev2.ipynb
+
 ├── README.md
+
 │
 ├── data/
+
 │ └── coordinates.py
+
 │
 ├── core/
+
 │ ├── google_maps.py
+
 │ └── aco_algorithm.py
+
 │
 └── visual/
+
 ├── plotting.py
+
 └── mapping.py
 
 
