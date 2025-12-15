@@ -78,7 +78,10 @@ Projede Isparta il merkezinden seçilen 10 adet toplanma alanı kullanılmışt�
 
 Proje, okunabilirliği artırmak ve her bileşeni ayrı sorumluluk alanına taşımak için modüler bir yapıda geliştirilmiştir.
 
+
 Repo yapısı:
+
+
 <img width="229" height="506" alt="image" src="https://github.com/user-attachments/assets/dc12111a-fd2d-4433-85e3-676803d434d8" />
 
 
