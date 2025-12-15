@@ -86,33 +86,55 @@ Repo yapısı:
 
 
 
-Açıklamalar:
 
-- `main.py`
-  Streamlit uygulamasının çalıştığı ana dosyadır. Arayüz, parametre girişleri, buton tetiklemeleri ve sonuçların gösterimi burada yönetilir.
+### Dosya ve Klasör Açıklamaları
 
-- `config.py`
-  Varsayılan ACO parametreleri (alfa, beta, buharlaşma, karınca sayısı, iterasyon sayısı vb.) burada tutulur. Böylece ayarlar tek noktadan yönetilebilir.
+- **`main.py`**  
+  Streamlit tabanlı ana uygulama dosyasıdır. Kullanıcı arayüzü, parametre girişleri, algoritmanın çalıştırılması ve sonuçların görselleştirilmesi bu dosyada yönetilir.
 
-- `requirements.txt`
-  Projeyi çalıştırmak için gerekli kütüphaneleri listeler. Kurulum ve yeniden çalıştırılabilirlik açısından zorunludur.
+- **`config.py`**  
+  Karınca Kolonisi Algoritması için kullanılan varsayılan parametreleri (karınca sayısı, iterasyon sayısı, alfa, beta, buharlaşma oranı vb.) içerir. Parametrelerin merkezi bir yerden yönetilmesini sağlar.
 
-- `data/coordinates.py`
-  Toplanma alanlarının koordinatları ve isimleri burada tutulur. Veri katmanı ayrı tutulduğu için değişiklik yapmak kolaydır.
+- **`requirements.txt`**  
+  Projenin çalışması için gerekli tüm Python kütüphanelerini listeler. Ortam kurulumu ve tekrar çalıştırılabilirlik açısından zorunludur.
 
-- `core/google_maps.py`
-  Google Maps API ile mesafe matrisi oluşturma işlemleri burada yapılır. API çağrıları ve yanıtların matrise dönüştürülmesi bu modüldedir.
+- **`Odev2.ipynb`**  
+  Jupyter Notebook formatındaki teslim dosyasıdır. Problem tanımı, kullanılan yöntem, kod blokları, ara çıktılar, yakınsama grafiği ve sonuç yorumları bu dosyada adım adım sunulmuştur. Sözlü sunumda esas alınan dosyadır.
 
-- `core/aco_algorithm.py`
-  ACO algoritmasının çekirdek kısmıdır. Karıncaların rota üretimi, olasılık hesabı, feromon güncelleme ve yakınsama tarihçesi burada yürütülür.
+- **`README.md`**  
+  Projenin genel tanımını, senaryoyu, kullanılan algoritmayı, klasör yapısını ve çalıştırma adımlarını içeren açıklama dosyasıdır.
 
-- `visual/plotting.py`
-  Yakınsama grafiği gibi görsel çıktılar bu dosyada üretilir.
+---
 
-- `visual/mapping.py`
-  Harita üzerinde rota çizimi (pydeck katmanları) bu dosyada hazırlanır. Harita ve çizgi rengi/kalınlığı gibi görsel özellikler burada yönetilir.
+### `data/` Klasörü
 
-Bu yapı, sunumda kodun parçalarını ayrı ayrı anlatmayı kolaylaştırır ve “hangi kod ne iş yapıyor” sorusuna net cevap verilmesini sağlar.
+- **`coordinates.py`**  
+  Isparta merkezdeki afet ve acil durum toplanma alanlarının koordinatlarını ve isimlerini içerir. Veri katmanı ayrı tutulduğu için yeni noktalar eklemek veya mevcutları güncellemek kolaydır.
+
+---
+
+### `core/` Klasörü
+
+- **`google_maps.py`**  
+  Google Maps API kullanılarak noktalar arası gerçek sürüş mesafelerinin alındığı ve mesafe matrisinin oluşturulduğu modüldür.
+
+- **`aco_algorithm.py`**  
+  Karınca Kolonisi Algoritmasının çekirdek implementasyonunu içerir. Karıncaların rota oluşturması, olasılık hesapları, feromon güncellemeleri ve yakınsama süreci bu dosyada gerçekleştirilir.
+
+---
+
+### `visual/` Klasörü
+
+- **`plotting.py`**  
+  Algoritmanın iterasyonlara göre yakınsamasını gösteren grafiklerin üretildiği dosyadır.
+
+- **`mapping.py`**  
+  En iyi bulunan rotanın harita üzerinde çizilmesini sağlayan görselleştirme fonksiyonlarını içerir. Streamlit arayüzünde rota çizimi bu modül aracılığıyla yapılır.
+
+---
+
+Bu yapı sayesinde proje; okunabilir, sürdürülebilir ve kolayca açıklanabilir bir hale getirilmiştir.
+
 
 ---
 
