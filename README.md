@@ -79,22 +79,22 @@ Projede Isparta il merkezinden seçilen 10 adet toplanma alanı kullanılmışt�
 Proje, okunabilirliği artırmak ve her bileşeni ayrı sorumluluk alanına taşımak için modüler bir yapıda geliştirilmiştir.
 
 Repo yapısı:
-├─ main.py
-├─ config.py
-├─ requirements.txt
-├─ Odev2.ipynb
-├─ README.md
+├── main.py
+├── config.py
+├── requirements.txt
+├── Odev2.ipynb
+├── README.md
 │
-├─ data/
-│ └─ coordinates.py
+├── data/
+│ └── coordinates.py
 │
-├─ core/
-│ ├─ google_maps.py
-│ └─ aco_algorithm.py
+├── core/
+│ ├── google_maps.py
+│ └── aco_algorithm.py
 │
-└─ visual/
-├─ plotting.py
-└─ mapping.py
+└── visual/
+├── plotting.py
+└── mapping.py
 
 
 Açıklamalar:
