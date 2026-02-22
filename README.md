@@ -1,5 +1,5 @@
 # yapay-zeka-proje-2
-Bu repoda yer alan dosyalar, Yapay Zeka Sistemleri dersi kapsamında hazırlanan 2. proje ödevini içermektedir.
+Karınca Kolonisi Algoritması ile Yol Optimizasyonu
 
 
 Projede amaç, Isparta il merkezinde belirlenen afet ve acil durum toplanma alanları arasında bir acil durum nakliye dronu için en uygun (toplam mesafesi en kısa) rotayı bulmaktır.
