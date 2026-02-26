@@ -7,18 +7,7 @@ Bu repoda hem uygulama (Streamlit) sürümü hem de sunum/savunma için hazırla
 
 ---
 
-# Odev2 – Karınca Kolonisi Algoritması ile Yol Optimizasyonu (Senaryo 8)
-
-Bu repoda iki farklı format birlikte sunulmuştur:
-
-- `main.py` ve modüler `.py` dosyaları: Streamlit arayüzü üzerinden etkileşimli şekilde çalıştırılabilen uygulama sürümü.
-- `Odev2.ipynb`: Jupyter Notebook sürümü. Problem tanımı, yöntem, ara çıktılar, yakınsama grafiği ve (isteğe bağlı) harita görselleştirme akışı notebook üzerinde adım adım incelenebilir.
-
-Değerlendirme sürecinde özellikle notebook dosyasının akışı, açıklayıcılığı ve projeye hakimiyet düzeyi inceleneceği için `Odev2.ipynb` dosyası projenin ana teslim formatıdır.
-
----
-
-## 1. Problem Tanımı (Senaryo 8)
+## 1. Problem Tanımı 
 
 Bir acil durum nakliye dronu, Isparta merkezde bulunan afet ve acil durum toplanma alanlarına paket taşımakla görevlidir. Dronun izleyeceği rotanın toplam mesafesi, görev süresini ve operasyon verimliliğini doğrudan etkiler.
 
