@@ -1,5 +1,4 @@
-# yapay-zeka-proje-2
-Karınca Kolonisi Algoritması ile Yol Optimizasyonu
+# Karınca Kolonisi Algoritması ile Yol Optimizasyonu
 
 
 Projede amaç, Isparta il merkezinde belirlenen afet ve acil durum toplanma alanları arasında bir acil durum nakliye dronu için en uygun (toplam mesafesi en kısa) rotayı bulmaktır.
